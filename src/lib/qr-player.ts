@@ -22,7 +22,7 @@ export class QrPlayer {
           width: 440,
           margin: 2,
           errorCorrectionLevel: 'M',
-          color: { dark: '#12231f', light: '#ffffff' },
+          color: { dark: '#000000', light: '#ffffff' },
         }),
       ),
     )
