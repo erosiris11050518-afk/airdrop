@@ -8,7 +8,7 @@ export function renderSender(root: HTMLElement): void {
   root.innerHTML = `
     <section class="workspace">
       <div class="workspace-heading">
-        <a href="/" class="back-link">← 返回</a>
+        <a href="./" class="back-link">← 返回</a>
         <span class="page-kicker">SEND A FILE</span>
         <h1>把文件交给这台设备</h1>
         <p>文件保留在本机，直到对方建立加密连接。</p>

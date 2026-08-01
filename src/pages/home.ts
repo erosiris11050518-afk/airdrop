@@ -6,7 +6,7 @@ export function renderHome(root: HTMLElement): void {
       <p class="hero-copy">用动态二维码让两台设备相认，再通过 WebRTC 建立加密直连。<br>无需注册，无需上传，关闭页面即结束。</p>
 
       <div class="role-grid" aria-label="选择操作">
-        <a class="role-card role-card-primary" href="/?mode=send">
+        <a class="role-card role-card-primary" href="?mode=send">
           <span class="role-index">01</span>
           <span class="role-icon send-icon" aria-hidden="true"><i></i></span>
           <span class="role-content">
@@ -15,7 +15,7 @@ export function renderHome(root: HTMLElement): void {
           </span>
           <span class="arrow" aria-hidden="true">↗</span>
         </a>
-        <a class="role-card" href="/?mode=receive">
+        <a class="role-card" href="?mode=receive">
           <span class="role-index">02</span>
           <span class="role-icon scan-icon" aria-hidden="true"><i></i></span>
           <span class="role-content">

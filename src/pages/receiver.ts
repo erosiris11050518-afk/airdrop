@@ -9,7 +9,7 @@ export function renderReceiver(root: HTMLElement): void {
   root.innerHTML = `
     <section class="workspace receiver-workspace">
       <div class="workspace-heading">
-        <a href="/" class="back-link">← 返回</a>
+        <a href="./" class="back-link">← 返回</a>
         <span class="page-kicker">RECEIVE A FILE</span>
         <h1>扫描发送端的屏幕</h1>
         <p>收齐动态信令后，这台设备会自动生成回传码。</p>

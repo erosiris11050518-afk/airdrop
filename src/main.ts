@@ -8,7 +8,7 @@ if (!app) throw new Error('找不到应用根节点')
 
 app.innerHTML = `
   <header class="site-header">
-    <a class="brand" href="/" aria-label="AirBridge 首页">
+    <a class="brand" href="./" aria-label="AirBridge 首页">
       <span class="brand-mark" aria-hidden="true"><i></i><i></i></span>
       <span>AirBridge</span>
     </a>

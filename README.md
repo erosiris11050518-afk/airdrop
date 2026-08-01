@@ -2,6 +2,8 @@
 
 AirBridge 是一个完全运行在浏览器中的跨平台文件传输工具。两台设备通过动态二维码交换 WebRTC Offer/Answer，然后通过加密的 `RTCDataChannel` 点对点传输文件。
 
+**在线地址：<https://erosiris11050518-afk.github.io/airdrop/>**
+
 项目不包含信令服务器、文件服务器、STUN 或 TURN 服务。部署时只需要一个可提供 HTTPS 的静态站点。
 
 ## 特性
@@ -52,6 +54,8 @@ npm run preview
 ```
 
 `dist/` 是完整的静态产物，可部署到任意 HTTPS 静态托管服务。静态托管只用于下载 HTML/JS/CSS/WASM；信令和文件数据都不会经过托管服务。
+
+仓库内的 `.github/workflows/deploy-pages.yml` 会在 `main` 分支每次推送后自动构建并发布 GitHub Pages。
 
 项目提供以下页面：
 
